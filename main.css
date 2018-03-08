@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(168, 190, 190)
+}
+
+.container {
+    display: flex;
+    background-color: honeydew;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    top: 60px;
+    position: relative;
+    justify-content: center;
+    align-items: center
+}
+.black-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 80%;
+    height: 60vh;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    color: black;
+    text-align: center  
+}
+
